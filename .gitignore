@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.streamlit/secrets.toml
+cache/
+runs/
+artifacts/
+dataset/
+prepared_dataset/
+prepared_roi_dataset/
+*.log
+%SystemDrive%/
