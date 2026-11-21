@@ -6,7 +6,7 @@ Pipeline:
 
 ## Current architecture
 
-See the [project architecture diagram](docs/architecture_diagram.md) for the implemented runtime and offline training flows. The more detailed [integrated system architecture](docs/integrated_system_architecture.md) also documents report-level extension points.
+See the [project architecture diagram](docs/architecture_diagram.md) for the implemented runtime and offline training flows.
 
 - **EC-YOLO:** EfficientNet-B0-inspired MBC backbone, SPPF, C2PSA, PAN/FPN neck, CoordAtt detection heads.
 - **HARP-UNet:** ROI-crop segmentation with 128x128 input, MSCAG encoder blocks, DSConv decoder blocks, and area estimation. Full-image segmentation remains available for the legacy checkpoint.
